@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "226519209876",
+    "firebase_url": "https://cabdsapp.firebaseio.com",
+    "project_id": "cabdsapp",
+    "storage_bucket": "cabdsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226519209876:android:6103f13dcde51a09",
+        "android_client_info": {
+          "package_name": "com.darkside.cab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226519209876-u8nb3nh0spasp8b1ehlqiqv9fmsgnar3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.darkside.cab",
+            "certificate_hash": "e892b068db70905e8800eebc4363f42ca64188d6"
+          }
+        },
+        {
+          "client_id": "226519209876-biin3gd2movsbijj0j2vgsvpfaq5rkv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL1FVm3tN0RK2AdPvRQU0Sd4USQs2fTEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226519209876-biin3gd2movsbijj0j2vgsvpfaq5rkv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
