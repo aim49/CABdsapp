@@ -8,7 +8,7 @@
     tools:context=".CustomerLoginRegisterActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/customer_status_link"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -22,7 +22,7 @@
         tools:layout_editor_absoluteY="226dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/customer_email"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -36,7 +36,7 @@
         tools:layout_editor_absoluteY="306dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/customer_password"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -50,7 +50,7 @@
         tools:layout_editor_absoluteY="372dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Customer_login_btn"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
@@ -62,10 +62,10 @@
         tools:layout_editor_absoluteY="461dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/register_Customer_link"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/button"
+        android:layout_alignEnd="@+id/Customer_login_btn"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="139dp"
         android:text="Don't have an Account?"
@@ -76,7 +76,7 @@
         tools:layout_editor_absoluteY="519dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/customer_register_btn"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
