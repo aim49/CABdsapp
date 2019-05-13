@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/well"
+    tools:context=".DriverLoginRegisterActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="224dp"
+        android:text="Customer Login"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="286dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="248dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="157dp"
+        android:background="@color/colorAccent"
+        android:text="login"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="119dp"
+        android:text="Don't have an Account?"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="register"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="514dp" />
+</RelativeLayout>
